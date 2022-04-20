@@ -1,0 +1,68 @@
+.task {
+    display: flex;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.8);
+    background-color: #f7f7f7;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    width: 300px;
+    justify-content: space-between;
+    /* padding: 10px 0 10px 10px; */
+  }
+  
+.task-action {
+    cursor: pointer;
+    padding: .5rem;
+    font-size: 1.05rem;
+    transition: color .25s;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+  }
+  
+.task-action:hover {
+    color: rgba(265, 265, 265, .5);
+  }
+  
+.task-information {
+    /* flex-grow: 1; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* height: 72px; */
+    padding-top: 10px;
+  }
+  
+.task-information h2 {
+    margin-bottom: .125rem;
+  }
+  
+.task-information p {
+    font-size: .83rem;
+    font-weight: 300;
+    /* color: rgba(256, 256, 256, 0.8); */
+    color:#494949;
+    line-height: 1rem;
+  }
+
+.task-btn {
+  font-size: 1rem;
+  background-color: #035baa;
+  color: #fff;
+  border: 0;
+  /* background: none; */
+  box-shadow: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.task-symbol{
+  padding: 10px 10px 10px 20px;
+  overflow: hidden;
+  max-width: 30%;
+}
+
+.task-symbol img {
+  display: block;
+  max-width: 100%;
+}
