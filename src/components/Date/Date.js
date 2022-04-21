@@ -26,8 +26,8 @@ function Date(props) {
 
 
             {/* <h2 className="date-num">{date}</h2> */}
-            <h1>Date</h1>
-            <Date/>
+            {/* <h1>Date</h1> */}
+            {/* <Date/> */}
         </div>
 
         
